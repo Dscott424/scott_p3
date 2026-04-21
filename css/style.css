@@ -1,0 +1,66 @@
+
+/* this is a css reset that makes sure the browser won't add any unexpected margins or padding to your page */
+body, html{
+  margin:100;
+  padding:100;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.centered-text {
+    text-align: center;
+}
+p{
+  font-size: 30px;
+  color: black;
+}
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.jost-<uniquifier> {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+iframe {
+  place-items: center; 
+  width: 800px; /* Spans the full width of its container */
+  height: 800px;
+}
+img {
+    width: 800px;
+    height: 233px;
+}
+.p1 {
+  font-family: "Jost"
+  color: black;
+  font-size:100px
+}
+p:hover {
+   color: rgb(236, 255, 236);
+}
+.p2 {
+  font-family: "jost", Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+@media all and (max-width: 425px) {
+  .p2 {
+  font-size: 40px;
+  text-align: center;
+  color:darkolivegreen;
+  }
+}
+@media all and (max-width: 425px) {
+body{
+  background-color: rgb(248, 219, 178);
+}
+
+@media all and (max-width: 768px) {
+  .p2 {
+  font-size: 40px;
+  }
+
+
